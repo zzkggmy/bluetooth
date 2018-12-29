@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:id="@+id/cl_blue">
+
+	<TextView
+			android:padding="10dp"
+			android:text="name"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/ntv_name_blu"/>
+
+	<TextView
+			android:paddingBottom="10dp"
+			android:paddingTop="10dp"
+			android:paddingEnd="15dp"
+			android:paddingStart="15dp"
+			android:text="@string/app_name"
+			app:layout_constraintStart_toEndOf="@id/ntv_name_blu"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/tv_mac"/>
+
+</android.support.constraint.ConstraintLayout>
